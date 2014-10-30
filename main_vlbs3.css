@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+
+body {
+
+	font-size: 100%;
+	font-weight: 300;
+	text-align: center;
+	background: url(images-victoria/baroque-bg-2.jpg) repeat center center; 
+	
+}
+
+#wrapper {
+	max-width: 1960px;
+	min-width: 960px;
+	min-height: 1000px;
+	
+}
+
+
+#containerNew {
+	width: 835px;
+	height: 695px; 
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 60px;
+}
+
+
+h1 {
+
+font-size: 1.8em;
+line-height: 130%;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+h2 {
+font-size: 1.6em;
+padding-top: 0px;
+color: #444;
+padding-bottom: 5px;
+
+
+}
+
+h4 {
+font-size: 1.3em;
+color: #444;
+padding-top: 10px;
+padding-bottom: 10px;
+
+
+}
+
+p {
+	font-weight: normal;
+	font-size: 1.2em;
+	padding-bottom: 15px;
+}
+	
+
+
+
+/*a:link {
+	color:#ada79b;
+	text-decoration:none;
+}
+*/
+
+a {
+	color:#666;
+	text-decoration:none;
+}
+
+a:hover {
+	color:#dec51c;
+	text-decoration:none;
+}
+
+
+
+/*a:visited {
+	color:#ada79b;
+	text-decoration:none;
+}
+*/
+
+
+#footer {
+	font-size: 1.5em;
+	font-weight: 500 ;
+	color:#dec51c;
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+
+}
+
+
+
+
+.group:after {
+	content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+    }
